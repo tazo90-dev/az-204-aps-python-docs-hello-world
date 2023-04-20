@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'aps-py-tazo'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0F1C90A375584FA7B84044E8B4148624 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
